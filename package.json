@@ -1,0 +1,30 @@
+{
+  "name": "image-webp-loader",
+  "version": "1.0.0",
+  "description": "webpack loader that convert image to webp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombbombbeng/image-webp-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "webp",
+    "image"
+  ],
+  "author": "zoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bombbombbeng/image-webp-loader/issues"
+  },
+  "homepage": "https://github.com/bombbombbeng/image-webp-loader#readme",
+  "dependencies": {
+    "cwebp": "^2.0.5",
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^3.0.0"
+  }
+}
