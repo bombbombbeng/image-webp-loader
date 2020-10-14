@@ -5,8 +5,8 @@ const CWebp = require('cwebp').CWebp
 const path = require('path')
 const os = require('os')
 CWebp.bin = os.type() === 'Darwin'
-  ? path.join(__dirname,'./bin/libwebp-0.4.1-mac-10.8/cwebp')
-  : path.join(__dirname,'./bin/libwebp-1.1.0-windows-x64/cwebp')
+  ? path.join(__dirname,'./libwebp/libwebp-0.4.1-mac-10.8/cwebp')
+  : path.join(__dirname,'./libwebp/libwebp-1.1.0-windows-x64/cwebp')
 
 const webpSchema = {
   type: 'object',
