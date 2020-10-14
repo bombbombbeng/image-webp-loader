@@ -1,6 +1,6 @@
 
 const loaderUtils = require('loader-utils')
-const validateOptions = require('schema-utils')
+const validateOptions = require('schema-utils').validate
 const CWebp = require('cwebp').CWebp
 const path = require('path')
 const os = require('os')
